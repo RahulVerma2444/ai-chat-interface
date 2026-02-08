@@ -31,3 +31,29 @@ A modern, production-ready AI chat application built with React and Express.js. 
 ```bash
 git clone https://github.com/yourusername/ai-chat-assessment.git
 cd ai-chat-assessment
+
+#### 2. Install dependencies
+
+Frontend:
+npm install
+
+Backend:
+cd server
+npm install
+
+Environment Variables:
+
+Create a .env file inside the server directory:
+OPENAI_API_KEY=your_openai_api_key_here
+
+Running the Application:
+
+Start backend:
+cd server
+npm start
+
+Start frontend:
+npm run dev
+
+Frontend: http://localhost:5173
+Backend: http://localhost:3001
