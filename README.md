@@ -25,17 +25,6 @@ A modern, production-ready AI chat application built with React and Express.js. 
 - **Backend:** Node.js, Express
 - **AI Integration:** OpenAI API (GPT-3.5 Turbo)
 
-## Project Structure
-
-vite-project/
-├── src/ # React frontend source code
-├── server/ # Express backend
-│ ├── index.js
-│ └── .env
-├── package.json
-└── README.md
-
-
 ## Quick Start
 
 ### Prerequisites
@@ -48,27 +37,40 @@ vite-project/
 ```bash
 git clone https://github.com/yourusername/ai-chat-assessment.git
 cd ai-chat-assessment
+```
+
 2. Install Dependencies
 Frontend:
-
+```bash
 npm install
-Backend:
+```
 
+Backend:
+```bash
 cd server
 npm install
+```
+
 3. Environment Variables
 Create a .env file inside the server directory and add:
 
+```bash
 OPENAI_API_KEY=your_openai_api_key_here
-4. Running the Application
-Start the backend server:
+```
 
+4. Running the Application
+
+Start the backend server:
+```bash
 cd server
 npm start
-Start the frontend development server:
+```
 
+Start the frontend development server:
+```bash
 npm run dev
+```
+
 Access the Application
 Frontend: http://localhost:5173
-
 Backend: http://localhost:3001
